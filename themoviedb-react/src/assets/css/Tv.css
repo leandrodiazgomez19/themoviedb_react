@@ -1,0 +1,22 @@
+.content-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.peliculas-container {
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+}
+
+.peliculas-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card {
+   width: 18rem;
+}

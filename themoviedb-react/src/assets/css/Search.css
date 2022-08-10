@@ -1,0 +1,65 @@
+.container-header {
+    height: 70vh;
+    max-height: 50vh;
+    max-width: 1300px;
+    background-image: linear-gradient(to right, rgba(3,37,65, 0.8) 0%, rgba(3,37,65, 0) 100%), url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+@media (max-width: 500px) {
+    .container-header {
+        max-height: 70vh;
+    }
+
+    .container h1 {
+        font-size: 1.2rem ;
+    }
+}
+
+.container-row {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    color: white;
+}
+
+.titulo h2 {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.titulo h3 {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.formulario {
+    width: 100%;
+    color: white;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.form-control{
+    border-radius: 30px;
+    border: none;
+}
+
+#button-addon2 {
+    color: rgba(255,255,255, 1);
+    background: linear-gradient(to right, rgba(30,213,169, 1) 0%, rgba(1,180,228, 1) 100%);
+    border-radius: 30px;
+    border: none;
+}
+
+@media (min-width: 1200px) { 
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1200px;
+    }
+}

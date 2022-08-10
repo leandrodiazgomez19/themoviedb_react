@@ -1,0 +1,21 @@
+.header {
+    background-color: #032541;
+    width: 100%;
+}
+
+.header img {
+    width: 154px;
+    height: 20px;
+}
+
+.navbar {
+    background-color: #032541 !important;
+}
+
+.navbar-toggler span {
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+}

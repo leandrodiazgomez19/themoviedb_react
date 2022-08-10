@@ -1,0 +1,45 @@
+footer {
+    width:100%;
+    height: 200px;
+    background-image: radial-gradient(at 30% top, rgba(3,29,51,1) 0%, rgba(3,37,65, 1) 70%);
+
+    display: flex;
+    justify-content: space-between;  
+}
+
+footer img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+footer .container {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .container .navbar {
+    background-image: radial-gradient(at 30% top, rgba(3,29,51,1) 0%, rgba(3,37,65, 1) 70%);
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-iconos {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.footer-iconos a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+
+
